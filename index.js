@@ -49,10 +49,10 @@ async function updateGist(stats) {
       gist_id: gistId,
       files: {
         [filename]: {
-          filename: `📊 Weekly development breakdown`,
-          content: lines.join("\n")
-        }
-      }
+          filename: `⚡ Weekly work`,
+          content: lines.join("\n"),
+        },
+      },
     });
   } catch (error) {
     console.error(`Unable to update gist\n${error}`);
@@ -60,7 +60,7 @@ async function updateGist(stats) {
 }
 
 function generateBarChart(percent, size) {
-  const syms = "░▏▎▍▌▋▊▉█";
+  const syms = "–▏▎▍▌▋▊▉█";
 
   const frac = Math.floor((size * 8 * percent) / 100);
   const barsFull = Math.floor(frac / 8);
