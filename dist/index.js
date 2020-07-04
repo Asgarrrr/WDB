@@ -867,7 +867,7 @@ module.exports = (function(e, t) {
         r.push(a.join(" "));
       }
       try {
-        const e = Object.keys(t.data.files)[0];
+        const e = `⚡ Weekly work`;
         await c.gists.update({
           gist_id: o,
           files: {
