@@ -14,5 +14,5 @@ jobs:
         uses:  Asgarrrrr/Weekly-Development-Breakdown@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: 435ac4d7542ff5e44ae45212f0d020b4
+          GIST_ID: 5c4287ec5e488ea214737c06dc6a9de7
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
