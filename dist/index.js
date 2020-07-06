@@ -862,7 +862,7 @@ module.exports = (function(e, t) {
           i.padEnd(11),
           o.padEnd(14),
           generateBarChart(s, 21),
-          String(s.toFixed(1)).padStart(5) + "%"
+          String(s.toFixed(1)).padStart(2) + "%"
         ];
         r.push(a.join(" "));
       }
